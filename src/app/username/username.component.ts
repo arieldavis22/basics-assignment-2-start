@@ -13,15 +13,15 @@ export class UsernameComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onUpdate(e: Event) {
-    console.log(this.name.length);
+  // onUpdate(e: Event) {
+  //   console.log(this.name.length);
 
-    if (this.name.length == 0) this.isDisabled = true;
-    else this.isDisabled = false;
-  }
+  //   if (this.name.length == 0) this.isDisabled = true;
+  //   else this.isDisabled = false;
+  // }
 
-  onClick() {
-    this.isDisabled = true;
-    this.name = '';
-  }
+  // onClick() {
+  //   this.isDisabled = true;
+  //   this.name = '';
+  // }
 }
