@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="name" (input)="onUpdate($event)">
+<p>{{ name }}</p>
+
+<button [disabled]="isDisabled" (click)="onClick()">Click!</button>
